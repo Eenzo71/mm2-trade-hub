@@ -8,6 +8,102 @@
 
 ---
 
+## 🇺🇸 English Version
+
+Welcome to the **MM2 Trade Hub**! This is a tool (currently in development) created to help Murder Mystery 2 players calculate trades quickly and visually. 
+
+The ultimate goal is to create a smart "overlay" that reads real-time game economy values directly from your screen, making it easy to know if a trade is a "Win", "Loss", or "Fair".
+
+### 📖 The Story, The Refactoring, and Who I Am
+Anyone who plays MM2 knows the tension of having to calculate values fast so the other player doesn't cancel the trade, or worse, getting scammed because there was no time to add it all up. 
+
+The first version of this project wasn't born for me, but to help my girlfriend, who played a lot of MM2 and made dozens of trades a day. To make her life easier, I created a Python script that recognized the screen and did the math. It worked, but it was a very limited, heavy, and slow tool.
+
+Seeing how much this could help in practice, I decided to **refactor everything from scratch**, but this time for the entire community. The current project is being built with a robust and modern foundation using **React and Rust**, replacing that old script with a real Artificial Intelligence model, bringing a clean, fast, and 100% automated interface.
+
+**A quick heads-up about me:** I'm just a 17-year-old in my 3rd (and final) year at a Federal Institute (High School/Technical School in Brazil). I'm developing the MM2 Trade Hub as a "hobby" and with a lot of passion, but since it's my senior year, I have my final graduation project (TCC) and other heavy commitments to balance. I promise to keep as committed as possible to make this project work and cross the finish line!
+
+---
+
+### 📸 What's Already Done
+
+The project is coming to life in the graphical interface! Here are some previews of the current UI running side-by-side with the game:
+
+![Real-Time Trade](img/trade-en.png)
+![Simulation Screen](img/sml-en.png)
+![Settings Screen](img/config-en.png)
+
+---
+
+### 🤖 Artificial Intelligence (I Need You!)
+
+The screens above show the visual aspect of the ready project, **but at the moment, the real-time calculation is static**. 
+
+For the app to be 100% automatic, I am training a Computer Vision (AI) model to read the Roblox trade window. And this is exactly where **I need the community's help!**
+
+**📊 Current AI training progress:**
+The model already has an **87.0% overall accuracy**, but we have a major visual hurdle:
+
+* ✅ `gui_inventory`: 100%
+* ✅ `gui_trade`: 100%
+* ✅ `offer_label`: 100%
+* ✅ `trade_progress`: 100%
+* ✅ `trader_nickname`: 100%
+* ✅ `weapon_icon`: 100%
+* ✅ `weapon_name`: 100%
+* ❌ **`quantity` (Quantity e.g., x2, x3, x4): 0.0%**
+
+The AI is perfect at reading weapon names and icons, but **it is completely blind to quantity multipliers**. 
+
+**🤝 How can you help train the model?**
+Right now, our focus is **100% on the Computer (Desktop) interface!** I need a massive volume of images for the AI to learn. If you play MM2 on PC, **take full-screen screenshots** of your trade windows, especially those with duplicate items (x2, x3, x4)! (No real trades are required, just the visual).
+
+*(Note: Screens where the Roblox window looks visually identical to the PC version are also welcome. In the future, if everything goes well, I'll try to release a Mobile version of the app, and then I'll ask for your help again with mobile screenshots!)*
+
+*Examples of perfect screenshots to send me:*
+![Training Data Example 1](img/print1.png)
+![Training Data Example 2](img/print3.png)
+
+**📥 Where to send the screenshots?**
+To make it easier, I created a quick Google Forms to receive the uploads. 
+
+🔗 **[Click here to access the form and submit your screenshots!](https://forms.gle/JYyAPSXY3MkQj6rx6)**
+
+![Upload Form](img/forms.png)
+
+⚠️ **Disclaimer:** If you leave your Discord or Roblox username in the form, your name will appear on the app's future **'Supporters Wall'** as a thank you! 🏆
+
+---
+
+### 🛠️ Project Status
+- [x] Initial Visual Interface (UI/UX)
+- [x] Trade Simulation System
+- [x] Live Trade Screen
+- [x] Internationalization (PT-BR and EN implemented)
+- [ ] Real-Time Economy Data Integration
+- [ ] Screen Reading AI Model Completion (Training in progress 🚀)
+
+---
+
+### ☕ Support the Project (Coming Soon)
+Building this entire ecosystem takes time, dedication, and a lot of energy! In the future, I will set up support platforms (like Ko-fi, Buy Me a Coffee, etc.) where you can support the project's development. 
+
+**Why "Coming Soon"?** I will only open financial support platforms when the app is in its final stretch and I am sure I won't have unexpected issues with my school's final project (TCC). I think it would be really unfair to receive your support and fail to deliver the promised tool.
+
+When the time comes, the funds will be completely separated for transparency:
+* 🚀 **Support the App (Infrastructure):** Every cent raised here will go **100% to the project**. The goal is to use this for things like renting dedicated VIP servers for the MM2 Trade Hub community to trade.
+* ☕ **Buy me a coffee (Developer):** A direct, personal support to me, to help keep me focused during late-night coding sessions! 😁
+
+---
+
+### 🤝 Future Partnerships and Ads
+When the project is very close to the finish line, I will open up space for official partnerships! 
+
+Being totally transparent about ads: I hate those random Google banners polluting the screen. Therefore, **IF** I ever put ads in the app, I promise they won't be annoying things that ruin your experience or your screen. The idea is to bring only and useful recommendations for gamers, like reliable stores to buy Robux or buy MM2 weapons. Everything 100% focused on the Roblox universe!
+
+💖 **Thank you so much for reading this far, and a massive thanks to everyone sending in their screenshots and helping make this project a reality!**
+
+---
 ## 🇧🇷 Versão em Português
 
 Bem-vindo ao **MM2 Trade Hub**! Esta é uma ferramenta (atualmente em desenvolvimento) criada para ajudar os jogadores de Murder Mystery 2 a calcular trocas de forma rápida e visual. 
