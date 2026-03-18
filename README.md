@@ -29,9 +29,9 @@ Vendo o quanto isso podia ajudar na prática, decidi **refatorar tudo do zero**,
 
 O projeto está ganhando vida na interface gráfica! Aqui estão algumas prévias da interface atual rodando lado a lado com o jogo:
 
-![Troca em Tempo Real](trade-pt.jpg)
-![Tela de Simulação](sml-pt.jpg)
-![Tela de Configuração](config-pt.jpg)
+![Troca em Tempo Real](img/trade-pt.png)
+![Tela de Simulação](img/sml-pt.png)
+![Tela de Configuração](img/config-pt.png)
 
 ---
 
@@ -61,8 +61,8 @@ Neste primeiro momento, o nosso foco é **100% na interface de Computador (Deskt
 *(Nota: Telas onde a janela do Roblox fique visualmente idêntica à do PC também são bem-vindas. Futuramente, se tudo der certo, vou tentar lançar uma versão Mobile do app, e aí pedirei novamente a ajuda de vocês com prints de celular!)*
 
 *Exemplos de prints perfeitas para me enviar:*
-![Exemplo de Dados de Treino 1](print1.jpg)
-![Exemplo de Dados de Treino 2](print3.jpg)
+![Exemplo de Dados de Treino 1](img/print1.png)
+![Exemplo de Dados de Treino 2](img/print3.png)
 
 **📥 Onde enviar as prints?**
 Para facilitar, criei um Google Forms rápido para receber os uploads. 
