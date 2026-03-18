@@ -3,7 +3,7 @@
 > Real-time MM2 Values and Trade Calculator. (WIP)
 
 🌎 **Choose your language / Escolha seu idioma:**
-* [🇺🇸 English](#-english-version) *(Coming soon)*
+* [🇺🇸 English](#-english-version)
 * [🇧🇷 Português (Brasil)](#-versão-em-português)
 
 ---
